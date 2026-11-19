@@ -29,16 +29,16 @@ import { getFirestore } from 'firebase/firestore';
  * each platform always gets one consistent set of Firebase modules.
  */
 const firebaseConfig = {
-  apiKey: 'TODO-BUDGETBUDDY-API-KEY',
-  authDomain: 'TODO-budgetbuddy.firebaseapp.com',
-  projectId: 'TODO-budgetbuddy',
-  storageBucket: 'TODO-budgetbuddy.firebasestorage.app',
-  messagingSenderId: 'TODO',
-  appId: 'TODO',
+  apiKey: 'AIzaSyDkg0DgsN5PN8uBX8se8gXg0MZXINoA5MY',
+  authDomain: 'budgetbuddy-49e55.firebaseapp.com',
+  projectId: 'budgetbuddy-49e55',
+  storageBucket: 'budgetbuddy-49e55.firebasestorage.app',
+  messagingSenderId: '267637390223',
+  appId: '1:267637390223:web:8e3f34767c2f28e848a9fa',
 };
 
 /** OAuth web client ID for the native Google Sign-In flow (not a secret). */
-export const GOOGLE_WEB_CLIENT_ID = 'TODO.apps.googleusercontent.com';
+export const GOOGLE_WEB_CLIENT_ID = '267637390223-5qsp403ss3bq2rb6mhv3341qdvm9v13a.apps.googleusercontent.com';
 
 export const firebaseApp = getApps().length ? getApp() : initializeApp(firebaseConfig);
 
